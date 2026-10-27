@@ -1,0 +1,469 @@
+{
+  "categories": [
+    {
+      "id": "all",
+      "name": "جميع النكهات",
+      "icon": "IceCream",
+      "count": 12
+    },
+    {
+      "id": "berries",
+      "name": "توت وفواكه حمراء",
+      "icon": "Cherry",
+      "count": 4
+    },
+    {
+      "id": "gelato",
+      "name": "جيلاتو إيطالي كلاسيك",
+      "icon": "Sparkles",
+      "count": 3
+    },
+    {
+      "id": "oriental",
+      "name": "بوظة عربية ومستكة",
+      "icon": "Flame",
+      "count": 2
+    },
+    {
+      "id": "boxes",
+      "name": "بوكسات الجمعات",
+      "icon": "Package",
+      "count": 3
+    }
+  ],
+  "products": [
+    {
+      "id": "ic-01",
+      "name": "آيسكريم التوت البري الملكي",
+      "category": "berries",
+      "price": 24,
+      "originalPrice": 30,
+      "rating": 4.9,
+      "reviewsCount": 128,
+      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=80",
+      "badge": "الأكثر مبيعاً",
+      "badgeColor": "berry-500",
+      "shortDesc": "مزيج فاخر من التوت البري الطازج وكريمة الفانيليا الإيطالية الغنية بنكهة منعشة.",
+      "description": "تجربة استثنائية تأخذ حواسك في رحلة منعشة. آيسكريم التوت البري الملكي محضر يومياً من أجود حبات التوت البري الأحمر والأسود المقطوفة طازجة، ممزوجة مع حليب المزارع العضوي وقشطة طازجة 100%. بدون مواد حافظة أو نكهات صناعية.",
+      "calories": "210 سعرة",
+      "weight": "250 مل / كوب",
+      "prepTime": "جاهز فوراً",
+      "ingredients": ["توت بري أحمر طبيعي", "حليب أبقار طازج", "قشطة طبيعية", "سكر قصب نقي", "عصير ليمون طازج"],
+      "sizes": [
+        { "id": "single", "name": "كوب مفرد (سكوب واحد)", "priceDelta": 0 },
+        { "id": "double", "name": "كوب مزدوج (سكوبين)", "priceDelta": 8 },
+        { "id": "waffle", "name": "بسكويت وافل مقرمش", "priceDelta": 5 },
+        { "id": "pint", "name": "عبوة عائلية (نصف لتر)", "priceDelta": 22 }
+      ],
+      "toppings": [
+        { "id": "berry-coulis", "name": "صوص التوت المركز", "price": 4 },
+        { "id": "pistachio-nuts", "name": "فستق حلبي مفروم", "price": 5 },
+        { "id": "white-choco", "name": "شوكولاتة بلجيكية بيضاء", "price": 4 },
+        { "id": "crispy-wafer", "name": "رقائق الويفر الذهبية", "price": 3 }
+      ]
+    },
+    {
+      "id": "ic-02",
+      "name": "جيلاتو الفراولة المخملية",
+      "category": "berries",
+      "price": 22,
+      "originalPrice": null,
+      "rating": 4.8,
+      "reviewsCount": 94,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?auto=format&fit=crop&w=800&q=80",
+      "badge": "جديد",
+      "badgeColor": "berry-600",
+      "shortDesc": "جيلاتو طبيعي مصنوع من فراولة مزارع الهدا بنكهة طبيعية وقوام فائق النعومة.",
+      "description": "جيلاتو إيطالي أصيل مصنوع بحرفية عالية. قوام كريمي كثيف بنسبة دهون أقل من الآيسكريم العادي ليبرز الطعم الحقيقي للفراولة الطبيعية. يعلوه رذاذ خفيف من هريس الفراولة الطازجة.",
+      "calories": "185 سعرة",
+      "weight": "220 مل",
+      "prepTime": "جاهز فوراً",
+      "ingredients": ["فراولة طبيعية 100%", "حليب كامل الدسم", "سكر طبيعي", "نكهة فانيليا مدغشقر"],
+      "sizes": [
+        { "id": "single", "name": "كوب مفرد (سكوب واحد)", "priceDelta": 0 },
+        { "id": "double", "name": "كوب مزدوج (سكوبين)", "priceDelta": 8 },
+        { "id": "pint", "name": "عبوة نصف لتر", "priceDelta": 20 }
+      ],
+      "toppings": [
+        { "id": "strawberry-drizzle", "name": "صلصة الفراولة الطازجة", "price": 3 },
+        { "id": "white-choco", "name": "قطع شوكولاتة بيضاء", "price": 4 },
+        { "id": "almonds", "name": "لوز محمص مقرمش", "price": 4 }
+      ]
+    },
+    {
+      "id": "ic-03",
+      "name": "شيربيت الكرز الأسود الداكن",
+      "category": "berries",
+      "price": 26,
+      "originalPrice": 32,
+      "rating": 4.95,
+      "reviewsCount": 160,
+      "image": "https://images.unsplash.com/photo-1505394033641-40c6ad1178d7?auto=format&fit=crop&w=800&q=80",
+      "badge": "خصم 20%",
+      "badgeColor": "berry-500",
+      "shortDesc": "شيربيت الكرز الإيطالي الأسود مع لمسة خفيفة من خلاصة الرمان والتوت الأحمر.",
+      "description": "نكهة جريئة ولذيذة تمزج حلاوة وحموضة الكرز الأسود الداكن الفاخر. نسيج منعش وخفيف يذوب في الفم، مثالي لأيام الصيف وتجمعات المساء الراقية.",
+      "calories": "160 سعرة",
+      "weight": "240 مل",
+      "prepTime": "جاهز فوراً",
+      "ingredients": ["كرز أسود طازج", "عصير رمان مركز", "ماء نقي مقطر", "سكر عضوي"],
+      "sizes": [
+        { "id": "single", "name": "كوب مفرد (سكوب واحد)", "priceDelta": 0 },
+        { "id": "double", "name": "كوب مزدوج (سكوبين)", "priceDelta": 8 },
+        { "id": "pint", "name": "عبوة نصف لتر", "priceDelta": 24 }
+      ],
+      "toppings": [
+        { "id": "dark-choco-shavings", "name": "بشور شوكولاتة داكنة 70%", "price": 5 },
+        { "id": "cherry-coulis", "name": "صوص الكرز الأسود", "price": 4 }
+      ]
+    },
+    {
+      "id": "ic-04",
+      "name": "تشيز كيك التوت الأحمر بالبسكويت",
+      "category": "berries",
+      "price": 28,
+      "originalPrice": null,
+      "rating": 4.88,
+      "reviewsCount": 210,
+      "image": "https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&w=800&q=80",
+      "badge": "موصى به",
+      "badgeColor": "berry-600",
+      "shortDesc": "قطع تشيز كيك كريمية مغمورة في جيلاتو التوت مع فتات بسكويت دايجستف الذهبي.",
+      "description": "الحلوى المفضلة تتحول إلى آيسكريم لا يُقاوم! طبقات متناغمة من آيسكريم جبنة المسكاربوني الكريمية مع تموجات صوص التوت الأحمر وقطع بسكويت غنية بالزبدة.",
+      "calories": "260 سعرة",
+      "weight": "260 مل",
+      "prepTime": "جاهز فوراً",
+      "ingredients": ["جبن ماسكاربوني كريمي", "توت أحمر طبيعي", "بسكويت زبدة مكرمل", "حليب طازج"],
+      "sizes": [
+        { "id": "single", "name": "كوب مفرد", "priceDelta": 0 },
+        { "id": "double", "name": "كوب مزدوج", "priceDelta": 9 },
+        { "id": "pint", "name": "عبوة نصف لتر", "priceDelta": 25 }
+      ],
+      "toppings": [
+        { "id": "extra-crumbs", "name": "بسكويت كرامبل إضافي", "price": 3 },
+        { "id": "salted-caramel", "name": "صوص كراميل مملح", "price": 4 }
+      ]
+    },
+    {
+      "id": "ic-05",
+      "name": "جيلاتو الفانيليا البوربون الملكية",
+      "category": "gelato",
+      "price": 23,
+      "originalPrice": 27,
+      "rating": 4.75,
+      "reviewsCount": 85,
+      "image": "https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&w=800&q=80",
+      "badge": "كلاسيك",
+      "badgeColor": "berry-700",
+      "shortDesc": "جيلاتو الفانيليا الطبيعية مع بذور فانيليا مدغشقر المعتقة وحليب غني ودسم.",
+      "description": "البساطة في أبهى صورها. فانيليا مدغشقر الأصلية المنقوعة ببطء في الحليب العضوي الطازج لتمنحك رائحة عطرية ونكهة دافئة لا مثيل لها.",
+      "calories": "205 سعرة",
+      "weight": "230 مل",
+      "prepTime": "جاهز فوراً",
+      "ingredients": ["أعواد فانيليا بوربون", "حليب طازج عضوي", "صفار بيض مبستر", "قشطة خفق"],
+      "sizes": [
+        { "id": "single", "name": "كوب مفرد", "priceDelta": 0 },
+        { "id": "double", "name": "كوب مزدوج", "priceDelta": 8 },
+        { "id": "pint", "name": "عبوة نصف لتر", "priceDelta": 20 }
+      ],
+      "toppings": [
+        { "id": "pistachio-nuts", "name": "فستق حلبي محمص", "price": 5 },
+        { "id": "caramel", "name": "كراميل دافئ", "price": 4 }
+      ]
+    },
+    {
+      "id": "ic-06",
+      "name": "جيلاتو الفستق والزعفران الإيطالي",
+      "category": "gelato",
+      "price": 29,
+      "originalPrice": null,
+      "rating": 4.97,
+      "reviewsCount": 340,
+      "image": "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&w=800&q=80",
+      "badge": "الأعلى تقييماً",
+      "badgeColor": "berry-800",
+      "shortDesc": "فستق صقلي أصيل مع خيوط الزعفران الفاخر المحضر بطريقة بطيئة تقليدية.",
+      "description": "تجربة النخبة. معجون فستق صقلية الأخضر 100% مع لمسة الزعفران الطبيعي بدون تلوين صناعي. طعم غني جداً وفاخر يعشقه الذواقة.",
+      "calories": "240 سعرة",
+      "weight": "250 مل",
+      "prepTime": "جاهز فوراً",
+      "ingredients": ["فستق برونتي صقلي نقي", "زعفران سوبر نقيل", "حليب بلدي طازج", "قشطة"],
+      "sizes": [
+        { "id": "single", "name": "كوب مفرد", "priceDelta": 0 },
+        { "id": "double", "name": "كوب مزدوج", "priceDelta": 10 },
+        { "id": "pint", "name": "عبوة نصف لتر", "priceDelta": 28 }
+      ],
+      "toppings": [
+        { "id": "pistachio-nuts", "name": "حبات فستق كاملة محمصة", "price": 6 },
+        { "id": "white-choco", "name": "شوكولاتة بيضاء ناعمة", "price": 4 }
+      ]
+    },
+    {
+      "id": "ic-07",
+      "name": "شوكولاتة بلجيكية غنية مع توت العليق",
+      "category": "gelato",
+      "price": 25,
+      "originalPrice": 30,
+      "rating": 4.89,
+      "reviewsCount": 178,
+      "image": "https://images.unsplash.com/photo-1580915411954-282cb1b0d780?auto=format&fit=crop&w=800&q=80",
+      "badge": "مفضل لعشاق الشوكولاتة",
+      "badgeColor": "berry-900",
+      "shortDesc": "شوكولاتة داكنة 72% مدمجة مع صلصة توت العليق لكسر الحلاوة بتناغم لا ينسى.",
+      "description": "عشاق الشوكولاتة على موعد مع اللذة النقية. كاكاو بلجيكي معتق مع حبات توت العليق البري التي تضفي لمسة حموضة راقية توازن دسامة الشوكولاتة.",
+      "calories": "270 سعرة",
+      "weight": "240 مل",
+      "prepTime": "جاهز فوراً",
+      "ingredients": ["كاكاو بلجيكي فاخر 72%", "توت العليق البري", "حليب أبقار طبيعي", "زبدة كاكاو نقية"],
+      "sizes": [
+        { "id": "single", "name": "كوب مفرد", "priceDelta": 0 },
+        { "id": "double", "name": "كوب مزدوج", "priceDelta": 8 },
+        { "id": "pint", "name": "عبوة نصف لتر", "priceDelta": 22 }
+      ],
+      "toppings": [
+        { "id": "brownie-chunks", "name": "قطع براونيز رطبة", "price": 5 },
+        { "id": "hot-fudge", "name": "فدج الشوكولاتة الدافئ", "price": 4 }
+      ]
+    },
+    {
+      "id": "ic-08",
+      "name": "بوظة عربية بالقشطة والمستكة والفستق",
+      "category": "oriental",
+      "price": 27,
+      "originalPrice": null,
+      "rating": 4.93,
+      "reviewsCount": 245,
+      "image": "https://images.unsplash.com/photo-1576506295286-5cda18df43e7?auto=format&fit=crop&w=800&q=80",
+      "badge": "تراثية فاخرة",
+      "badgeColor": "berry-800",
+      "shortDesc": "بوظة مدقوقة يدوياً بالمستكة الطبيعية وحليب الإبل المعقم ومغطاة بالفستق الحلبي المقشور.",
+      "description": "أصالة المذاق العربي العريق. محضرة بالطريقة الدمشقية التراثية بالدق اليدوي، نكهة مستكة شيوخي فاخرة، محشوة ومغلفة بطبقة سخية من الفستق الحلبي الطازج.",
+      "calories": "235 سعرة",
+      "weight": "250 غرام / رول",
+      "prepTime": "جاهز فوراً",
+      "ingredients": ["مستكة يونانية طبيعية", "قشطة بلدية طازجة", "فستق حلبي سوري نخب أول", "ماء زهر"],
+      "sizes": [
+        { "id": "single", "name": "رول مفرد (شريحتين)", "priceDelta": 0 },
+        { "id": "box-half", "name": "علبة نصف كيلو رول", "priceDelta": 25 },
+        { "id": "box-kilo", "name": "علبة كيلو كامل مشكل", "priceDelta": 55 }
+      ],
+      "toppings": [
+        { "id": "extra-pistachio", "name": "فستق حلبي إضافي مطحون", "price": 6 },
+        { "id": "honey", "name": "عسل السدر الجبلي", "price": 5 }
+      ]
+    },
+    {
+      "id": "ic-09",
+      "name": "بوظة التمر الملكي مع الهيل والقهوة",
+      "category": "oriental",
+      "price": 25,
+      "originalPrice": 29,
+      "rating": 4.82,
+      "reviewsCount": 112,
+      "image": "https://images.unsplash.com/photo-1549395156-e0c1fe6fc7a5?auto=format&fit=crop&w=800&q=80",
+      "badge": "نكهة مبتكرة",
+      "badgeColor": "berry-700",
+      "shortDesc": "خلاصة تمر السكري الفاخر مع لمسة هيل أخضر ونفحات خفيفة من القهوة السعودية.",
+      "description": "ابتكار يجمع بين كرم الضيافة وعصرية الآيسكريم. معجون تمر السكري الفاخر ممزوج مع حليب متبل بالهيل والزعفران، حلاوة طبيعية متزنة بدون سكر مضاف.",
+      "calories": "195 سعرة",
+      "weight": "230 مل",
+      "prepTime": "جاهز فوراً",
+      "ingredients": ["تمر سكري طبيعي", "هيل أخضر مطحون طازج", "حليب طازج", "قهوة سعودية مختصة"],
+      "sizes": [
+        { "id": "single", "name": "كوب مفرد", "priceDelta": 0 },
+        { "id": "double", "name": "كوب مزدوج", "priceDelta": 8 },
+        { "id": "pint", "name": "عبوة نصف لتر", "priceDelta": 22 }
+      ],
+      "toppings": [
+        { "id": "sesame-crumbs", "name": "سمسم محمص وطحينة فاخرة", "price": 4 },
+        { "id": "pecan-nuts", "name": "بيكان مكرمل مقرمش", "price": 5 }
+      ]
+    },
+    {
+      "id": "ic-10",
+      "name": "بوكس الجمعات الفاخر (8 نكهات مشكلة)",
+      "category": "boxes",
+      "price": 119,
+      "originalPrice": 145,
+      "rating": 4.98,
+      "reviewsCount": 420,
+      "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?auto=format&fit=crop&w=800&q=80",
+      "badge": "الأكثر طلباً للجمعات",
+      "badgeColor": "berry-500",
+      "shortDesc": "بوكس حراري يحافظ على البرودة 3 ساعات، يحتوي على 8 أكواب مشكلة مع 4 أنواع صوصات وتوبينغ.",
+      "description": "الحل المثالي لجمعات الأهل والأصدقاء! بوكس حافظ للحرارة مزود بثلج جاف لضمان بقاء الآيسكريم في درجة تجميد مثالية حتى 3 ساعات. يحتوي على تشكيلة نكهات مختارة: توت بري، فستق، فراولة، كرز، شوكولاتة بلجيكية، فانيليا، مستكة وتمر، مع ملاعق خشبية أنيقة ومجموعات صوصات مجانية.",
+      "calories": "حسب النكهة المحددة",
+      "weight": "8 أكواب × 120 مل",
+      "prepTime": "جاهز خلال 15 دقيقة",
+      "ingredients": ["تشكيلة نكهات الفواكه والكريمة", "عبوة حرارية عازلة", "ثلج جاف معتمد غذائياً"],
+      "sizes": [
+        { "id": "box-8", "name": "بوكس 8 أكواب ميني", "priceDelta": 0 },
+        { "id": "box-12", "name": "بوكس 12 كوب ميني + بسكويت وافل", "priceDelta": 45 },
+        { "id": "box-family", "name": "بوكس الحفلات (16 كوب + توبينغ كامل)", "priceDelta": 90 }
+      ],
+      "toppings": [
+        { "id": "included-toppings", "name": "تشكيلة 4 صوصات مجانية مشمولة بالبوكس", "price": 0 },
+        { "id": "extra-cone-pack", "name": "علبة 10 مخاريط وافل مقرمشة", "price": 12 }
+      ]
+    },
+    {
+      "id": "ic-11",
+      "name": "بوكس ميني كون المقرمش (12 حبة)",
+      "category": "boxes",
+      "price": 89,
+      "originalPrice": 105,
+      "rating": 4.86,
+      "reviewsCount": 188,
+      "image": "https://images.unsplash.com/photo-1516559828984-fb3b99548b21?auto=format&fit=crop&w=800&q=80",
+      "badge": "أجواء الحفلات",
+      "badgeColor": "berry-600",
+      "shortDesc": "12 ميني كون بنكهات التوت والشوكولاتة والفستق مغمسة بأطراف الشوكولاتة المقرمشة.",
+      "description": "تقديم أنيق وممتع للأطفال والكبار. 12 ميني وافل كون مصنوعة يدوياً، معبأة بنكهاتنا الفاخرة ومغموسة بالشوكولاتة البلجيكية والمكسرات.",
+      "calories": "110 سعرة / حبة",
+      "weight": "12 حبة ميني",
+      "prepTime": "جاهز فوراً",
+      "ingredients": ["وافل طازج مكرمل", "شوكولاتة سويسرية", "آيسكريم توت وفانيليا وفستق"],
+      "sizes": [
+        { "id": "box-12", "name": "12 حبة ميني", "priceDelta": 0 },
+        { "id": "box-24", "name": "24 حبة ميني للحفلات الكبيرة", "priceDelta": 70 }
+      ],
+      "toppings": [
+        { "id": "sprinkles", "name": "سبارنكلز سكرية مبهجة", "price": 4 }
+      ]
+    },
+    {
+      "id": "ic-12",
+      "name": "بوكس تذوق نكهات بيري رويال (4 عبوات نصف لتر)",
+      "category": "boxes",
+      "price": 95,
+      "originalPrice": 120,
+      "rating": 4.92,
+      "reviewsCount": 156,
+      "image": "https://images.unsplash.com/photo-1505394033641-40c6ad1178d7?auto=format&fit=crop&w=800&q=80",
+      "badge": "توفير 25 ريال",
+      "badgeColor": "berry-500",
+      "shortDesc": "أربع عبوات نصف لتر من أشهر نكهات التوت: توت بري ملكي، كرز داكن، فراولة، وشوكولاتة توت.",
+      "description": "البوكس الأمثل لتجربة جميع إبداعاتنا في عالم التوت والفواكه الحمراء. عبوات محكمة الإغلاق يمكن تخزينها بالفريزر لأسابيع مع الحفاظ على النكهة الطازجة.",
+      "calories": "متنوع",
+      "weight": "4 × 500 مل (2 لتر)",
+      "prepTime": "جاهز فوراً",
+      "ingredients": ["4 نكهات توت طبيعية مختارة", "تغليف حراري واقي"],
+      "sizes": [
+        { "id": "set-4", "name": "طقم 4 عبوات نصف لتر", "priceDelta": 0 }
+      ],
+      "toppings": [
+        { "id": "all-sauces", "name": "مجموعة الصوصات الثلاثية الفاخرة", "price": 10 }
+      ]
+    }
+  ],
+  "initialOrders": [
+    {
+      "id": "ORD-9421",
+      "date": "2026-10-07 18:45",
+      "status": "delivered",
+      "statusArabic": "تم التوصيل بنجاح",
+      "total": 139,
+      "paymentMethod": "Apple Pay",
+      "deliveryAddress": "الرياض - حي النرجس، شارع أنس بن مالك",
+      "deliveryTime": "تم التوصيل خلال 28 دقيقة",
+      "items": [
+        {
+          "productId": "ic-10",
+          "name": "بوكس الجمعات الفاخر (8 نكهات مشكلة)",
+          "sizeName": "بوكس 8 أكواب ميني",
+          "quantity": 1,
+          "price": 119,
+          "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?auto=format&fit=crop&w=800&q=80",
+          "toppings": ["تشكيلة 4 صوصات مجانية مشمولة بالبوكس"]
+        },
+        {
+          "productId": "ic-02",
+          "name": "جيلاتو الفراولة المخملية",
+          "sizeName": "كوب مفرد (سكوب واحد)",
+          "quantity": 1,
+          "price": 22,
+          "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?auto=format&fit=crop&w=800&q=80",
+          "toppings": []
+        }
+      ]
+    },
+    {
+      "id": "ORD-9304",
+      "date": "2026-10-08 13:20",
+      "status": "delivering",
+      "statusArabic": "في الطريق إليك مع السائق",
+      "total": 52,
+      "paymentMethod": "بطاقة مدى",
+      "deliveryAddress": "الرياض - حي الملقا، طريق الإمام سعود",
+      "deliveryTime": "متبقي حوالي 12 دقيقة للوصول",
+      "items": [
+        {
+          "productId": "ic-01",
+          "name": "آيسكريم التوت البري الملكي",
+          "sizeName": "كوب مفرد (سكوب واحد)",
+          "quantity": 1,
+          "price": 24,
+          "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=80",
+          "toppings": ["صوص التوت المركز"]
+        },
+        {
+          "productId": "ic-04",
+          "name": "تشيز كيك التوت الأحمر بالبسكويت",
+          "sizeName": "كوب مفرد",
+          "quantity": 1,
+          "price": 28,
+          "image": "https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&w=800&q=80",
+          "toppings": []
+        }
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "سارة المطيري",
+      "city": "الرياض",
+      "rating": 5,
+      "comment": "آيسكريم التوت الملكي طعمه خيالي ومنعش جداً! التغليف الحراري فخم ووصل بارد ومجمد وكأنه من المحل مباشرة.",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80"
+    },
+    {
+      "id": 2,
+      "name": "عبدالله الشمري",
+      "city": "الدمام",
+      "rating": 5,
+      "comment": "بوكس الجمعات فك أزمة في اجتماعنا العائلي. كل النكهات ممتازة خصوصاً بوظة المستكة والكرز الأسود، تجربة راقية.",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80"
+    },
+    {
+      "id": 3,
+      "name": "ريم الدوسري",
+      "city": "جدة",
+      "rating": 5,
+      "comment": "أفضل جيلاتو فراولة ذقته بدون أي مبالغة. طعم الفاكهة طبيعي 100% وبدون سكر زايد يغطي على النكهة. فخامة تستحق.",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80"
+    }
+  ],
+  "features": [
+    {
+      "title": "تغليف حراري فائق البرودة",
+      "desc": "صناديق مجهزة بثلج جاف تحافظ على تجميد الآيسكريم حتى 3 ساعات في أشد درجات الحرارة.",
+      "icon": "Snowflake"
+    },
+    {
+      "title": "مكونات طبيعية 100%",
+      "desc": "حليب مزارع عضوي وفواكه طازجة بدون نكهات صناعية أو ملونات كيميائية.",
+      "icon": "Leaf"
+    },
+    {
+      "title": "توصيل سريع ومباشر",
+      "desc": "أسطول سيارات مجهزة بثلاجات لضمان وصول طلبك في مدة قياسية تتراوح بين 25-35 دقيقة.",
+      "icon": "Truck"
+    },
+    {
+      "title": "دفع آمن ومتعدد",
+      "desc": "سداد مرن وفوري عبر Apple Pay، بطاقات مدى وفيزا، أو الدفع عند الاستلام.",
+      "icon": "ShieldCheck"
+    }
+  ]
+}
